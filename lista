@@ -1,0 +1,22 @@
+""" remover item da posição 2"""
+
+lista = [1,2,3,4]
+lista_aux=[]
+for i in range (len(lista)):
+    if(i !=2):
+        lista_aux.append(lista[i])
+        
+lista = lista_aux
+print(lista)
+
+"""lista = [1,2,3,4]
+del lista[2]
+print(lista)
+"""
+
+"""
+lista = [1,2,3,4]
+e = lista.pop(2)
+print(e)
+print(lista)
+"""
